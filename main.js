@@ -1,8 +1,7 @@
 if (getMobileOperatingSystem() == "Android")
-    window.location.href = "https://play.google.com/store/apps/details?id=com.realmindme.app&hl=en_US&gl=US";
+    window.location.replace("https://play.google.com/store/apps/details?id=com.realmindme.app&hl=en_US&gl=US");
 else if  (getMobileOperatingSystem() == "iOS")
-    window.location.href = "https://apps.apple.com/us/app/realty-task-manager/id1500366075";
-
+    window.location.replace("https://apps.apple.com/us/app/realty-task-manager/id1500366075");
 
 /**
  * Determine the mobile operating system.
